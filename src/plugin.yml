@@ -1,0 +1,9 @@
+name: HeadPets
+main: me.killerkoda13.HeadPets.HeadPets
+version: 0.0.1
+description: HeadPets
+author: Killerkoda13
+commands:
+   headpets:
+      description: test
+      usage: /<command>
