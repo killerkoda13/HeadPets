@@ -14,15 +14,5 @@ import org.bukkit.event.player.PlayerMoveEvent;
  */
 public class Events implements Listener{
 
-   public static Slime entity;
-    boolean m = false;
-
-    @EventHandler
-    public void onMove(PlayerMoveEvent e)
-    {
-
-    }
-
-
 
 }

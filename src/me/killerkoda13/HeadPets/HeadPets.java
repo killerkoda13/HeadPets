@@ -26,6 +26,7 @@ public class HeadPets extends JavaPlugin {
     static Plugin plugin;
 
 
+
     public void followPlayer(Player player, LivingEntity entity, double d) {
         final LivingEntity e = entity;
         final Player p = player;

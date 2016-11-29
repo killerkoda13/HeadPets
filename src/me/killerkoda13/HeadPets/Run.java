@@ -13,21 +13,10 @@ import org.bukkit.scheduler.BukkitRunnable;
 public class Run extends BukkitRunnable{
 
     public Plugin pl;
-    public long delay;
-    public Slime s;
 
-    public Run(Plugin plugin, long delay, Slime squid)
-    {
-
-    }
 
     @Override
     public void run() {
-            Location p = HeadPets.p.getLocation();
-            Location l = Events.entity.getLocation();
 
-            this.s.setGravity(false);
-            p.setX(p.getX()+4);
-            this.s.teleport(p);
     }
 }
